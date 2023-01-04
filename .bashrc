@@ -95,7 +95,7 @@ alias l='ls -CF'
 #misc
 alias weather='curl wttr.in'
 alias aptrm=' sudo apt remove'
-alias aptup='sudo apt update && sudo apt dist-upgrade'
+alias aptup='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
 alias tree='find . -print | sed -e '\''s;[^/]*/;|____;g;s;____|; |;g'\'' | less'
 
 #confirmation
